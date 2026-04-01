@@ -1,0 +1,38 @@
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+header, nav, footer {
+    background: lightgray;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    padding: 10px;
+}
+
+section {
+    flex: 3;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+aside {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid black;
+    margin-left: 10px;
+}
+
+article {
+    border: 1px solid gray;
+    padding: 5px;
+}
